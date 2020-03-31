@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Motorbike Color Changer</title>
+    <link rel="stylesheet" href="css/motor.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <script src="js/function.js"></script>
+</head>
+<body BGCOLOR = "rosybrown">
+    <div class=" Selector">
+        <p class="changer">Motorbike Color changer</p> 
+        <img src="img/motor.png" id="motorchange" alt="">
+        <p class="GRC">Generate Random Color</p>
+        <div>
+            <button onclick="Generate()" id = "Generate"> Generate </button>
+        </div>
+        <p class="Specific">Generate Specific Color</p>
+        <div class="choicesofcolor">
+            <label for="colors"></label>
+            <select id="chooseColor">
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="yellow">Yellow</option>
+                <option value="red">Red</option>
+                <option value="violet"> Violet</option>
+                <option value="maroon">Maroon</option>
+            </select>
+            <div>
+                <button onclick="Reveal()" id = "Show"> Show </button >
+            </div>
+            <div>
+                <button onclick="restart()" id ="reset"> Reset </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

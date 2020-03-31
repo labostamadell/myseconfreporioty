@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    src: url(../font/ONEDAY.ttf);
+    font-family: "ONEDAY";
+}
+@font-face{
+    src: url(../font/Leoscar\ Serif.ttf);
+    font-family: "Leoscar\ Serif";
+}
+.Selector{
+    position: fixed;
+    margin: 50px;
+    width: 950px;
+    height: 550px;
+    background-color: rgb(67, 230, 148);
+    left: 143px;
+}
+.changer{
+    position: relative;
+    padding:20px;
+    font-size: 50px;
+    font-family: "ONEDAY";
+    left: 100px;
+}
+#motorchange{
+    position: relative;
+    left: 150px;
+    width: 600px;
+    background-color: black;
+}
+.GRC{
+    position: relative;
+    left: 150px;
+    font-family: "Leoscar\ Serif";
+    top: 2px;
+    font-size: 17px;
+}
+#Generate{
+    position: relative;
+    left: 180px;
+    width: 70px;
+    height: 30px;
+    top: 10px;
+    font-family: "Leoscar\ Serif";
+    font-size: 17px;
+    Background-color: rgb(93, 107, 240);
+   
+
+}
+.Specific{
+    position: relative;
+    left: 580px;
+    bottom: 47px;
+    font-family: "Leoscar\ Serif";
+    font-size: 17px;
+  
+}
+#chooseColor{
+    position: relative;
+    left: 600px;
+    bottom: 45px;
+    width: 100px;
+    height: 25px;
+    font-family: "Leoscar\ Serif";
+    font-size: 15px;
+    background-color: lightcyan;
+    
+}
+#Show{
+    position: relative;
+    left: 600px;
+    bottom: 42px;
+    width: 50px;
+    height: 25px;
+    font-family: "Leoscar\ Serif";
+    background-color: teal;
+    font-size: 17px;
+
+    
+}
+#reset{
+    position: relative;
+    left: 650px;
+    bottom: 67px;
+    width: 50px;
+    height: 25px;
+    font-family: "Leoscar\ Serif";
+    background-color: rgb(206, 151, 80);
+    font-size: 17px;
+
+}
+
